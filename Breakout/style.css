@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: police1;
+  src: url("font/Volkhov-Bold.ttf");
+}
+
+@font-face {
+  font-family: police2;
+  src: url("font/Volkhov-Regular.ttf");
+}
+
+#titre{
+ font-family:police1;
+ font-size: 35px;
+ color: white;
+ text-align: center;
+ letter-spacing: 0.7px;
+
+ position:absolute;
+ left:12px ;
+ bottom: 100px;
+}
+
+#info_1{
+  font-family:police2;
+  font-size: 14px;
+  color: white;
+  text-align:justify-all;
+  letter-spacing: -1px;
+ 
+  position:absolute;
+  left:12px ;
+  bottom: 70px;
+
+}
+ 
+ p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  
+}
